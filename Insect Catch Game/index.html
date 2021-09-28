@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        referrerpolicy="no-referrer" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet">
+  <title>Insect Catch Game</title>
+</head>
+<body>
+<div class="screen">
+  <h1>Catch the Insect</h1>
+  <button class="btn" id="start-btn">Play Game</button>
+</div>
+<div class="screen">
+  <h1>What is your 'favorite' insect?</h1>
+  <ul class="insect-list">
+    <li>
+      <button class="choose-insect-btn">
+        <p>Fly</p>
+        <img alt="flay" src="http://pngimg.com/uploads/fly/fly_PNG3946.png">
+      </button>
+    </li>
+    <li>
+      <button class="choose-insect-btn">
+        <p>Mosquito</p>
+        <img alt="mosquito" src="http://pngimg.com/uploads/mosquito/mosquito_PNG18175.png">
+      </button>
+    </li>
+    <li>
+      <button class="choose-insect-btn">
+        <p>Spider</p>
+        <img alt="spider" src="http://pngimg.com/uploads/spider/spider_PNG12.png">
+      </button>
+    </li>
+    <li>
+      <button class="choose-insect-btn">
+        <p>Roach</p>
+        <img alt="roach" src="http://pngimg.com/uploads/roach/roach_PNG12163.png">
+      </button>
+    </li>
+  </ul>
+</div>
+<div class="screen game-container" id="game-container">
+  <h3 id="time" class="time">Time: 00:00</h3>
+  <h3 id="score" class="score">Score: 0</h3>
+  <h3 id="message" class="message">
+    Are you annoyed yet? <br />
+    You're playing an impossible game!!
+  </h3>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
